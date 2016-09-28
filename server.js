@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 
 
-var articleone={
+var articleone = {
     title:'Article One|Jyosthna Royal',
     heading:'Article One',
     date:'Sept 26 2016',
@@ -30,11 +30,11 @@ var articleone={
     
 };
 
-function createTemplate(data){
-    var title=data.title;
-    var date=data.date;
-    var heading=data.heading;
-    var content=data.content;
+function createTemplate (data){
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
 }
 var htmlTemplate = `
 <html>
@@ -55,15 +55,15 @@ var htmlTemplate = `
          ${heading}
      </h3>
      <div>
-     ${date} 
+         ${date} 
     </div>
-       <div>
-    ${content}
+    <div>
+         ${content}
     </div>
-    </div>
+</div>
  </body>
 </html>
-;
+`;
 return htmlTemplate;
 }
 
