@@ -12,7 +12,8 @@ var articleone={
     title:'Article One|Jyosthna Royal',
     heading:'Article One',
     date:'Sept 26 2016',
-    content:`< <p>
+    content:` 
+        <p>
             This Is the content of my first article.This Is the content of my first article.This Is the content of my first article
         </p>
     
