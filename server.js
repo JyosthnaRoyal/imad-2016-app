@@ -30,8 +30,6 @@ var articleone={
     
 };
 
-
-
 function createTemplate(data){
     var title=data.title;
     var date=data.date;
@@ -66,7 +64,7 @@ var htmlTemplate = `
     </div>
  </body>
 </html>
-`;
+;
 return htmlTemplate;
 }
 
