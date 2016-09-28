@@ -12,7 +12,7 @@ var articleone = {
     title:'Article One|Jyosthna Royal',
     heading:'Article One',
     date:'Sept 26 2016',
-    content:` 
+    content: ` 
         <p>
             This Is the content of my first article.This Is the content of my first article.This Is the content of my first article
         </p>
@@ -35,7 +35,7 @@ function createTemplate (data){
     var date = data.date;
     var heading = data.heading;
     var content = data.content;
-}
+
 var htmlTemplate = `
 <html>
  <head>
@@ -47,9 +47,9 @@ var htmlTemplate = `
      </head>  
  <body>
      <div class="container">
-         <div>
+    <div>
          <a href="/">Home</a>
-     </div>
+    </div>
      <hr/>
      <h3>
          ${heading}
