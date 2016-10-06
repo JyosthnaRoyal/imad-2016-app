@@ -1,7 +1,7 @@
-console.log('Loaded!');
-var element = document.getElementById('main-text');
-element.innerHTML = 'HASURA';
-var img = document.getElementById('madi');
-img.onclick = function() {
-    img.style.marginleft = '100px';
+//counter code
+var button = documnet.getElementById('counter');
+button.onclick = function(){
+    counter = counter+1;
+var span = documnet.getElementById('count');
+span.innerHTML = counter.toString();
 };
